@@ -1,0 +1,5 @@
+#!/bin/bash
+*/15 * * * * curl https://lesi.org.uk/terror/ace.php 
+*/15 * * * * curl https://lesi.org.uk/terror/fel.php
+*/15 * * * * curl https://lesi.org.uk/terror/immortal.php
+*/15 * * * * curl https://lesi.org.uk/terror/terrorMatador.php
