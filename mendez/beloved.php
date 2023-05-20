@@ -25,7 +25,7 @@
 	$urlTitan = $bungieDomain . $membershipType . "Profile/" . $destinyMembershipId . "Character/" . $titan . $components;
 
 	$jsonKeyName = 'beloved_kills';
-	$jsonFileName = 'mendezKills.json';
+	$jsonFileName = 'kill-counts.json';
 
 ////////////////////////////////////////////////////////////////////////////////////
 
