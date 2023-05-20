@@ -4,13 +4,15 @@
 
 	$api_key = getenv("BUNGIE_KEY");
 
-	$destinyMembershipId = '4611686018506946834/';
+	$bungieEndpoint = 'https://www.bungie.net/Platform/';
+	$endpointType = 'Destiny2/';
+
 	$membershipType = '3/';
+	$destinyMembershipId = '4611686018506946834/';
 	$warlock = '2305843009688884497/';
 	$hunter = '2305843010056444208/';
 	$titan = '2305843010057644260/';
 	
-	$bungieDomain = 'https://www.bungie.net/Platform/Destiny2/';
 	$characterEquipment = '205';
 	$itemPlugObjectives = '309';
 	$components = "?components=" . $characterEquipment . "," . $itemPlugObjectives;
@@ -20,9 +22,9 @@
 	$crucibleTracker = '3244015567';
 	$trialsMementoTracker = '3915764595';
 
-	$urlWarlock = $bungieDomain . $membershipType . "Profile/" . $destinyMembershipId . "Character/" . $warlock . $components;
-	$urlHunter = $bungieDomain . $membershipType . "Profile/" . $destinyMembershipId . "Character/" . $$hunter . $components;
-	$urlTitan = $bungieDomain . $membershipType . "Profile/" . $destinyMembershipId . "Character/" . $titan . $components;
+	$urlWarlock = $bungieEndpoint . $endpointType . $membershipType . "Profile/" . $destinyMembershipId . "Character/" . $warlock . $components;
+	$urlHunter = $bungieEndpoint . $endpointType . $membershipType . "Profile/" . $destinyMembershipId . "Character/" . $$hunter . $components;
+	$urlTitan = $bungieEndpoint . $endpointType . $membershipType . "Profile/" . $destinyMembershipId . "Character/" . $titan . $components;
 
 	$jsonKeyName = 'beloved_kills';
 	$jsonFileName = 'kill-counts.json';
