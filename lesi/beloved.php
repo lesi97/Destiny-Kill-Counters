@@ -22,10 +22,10 @@ Twitch Nightbot Command:
 	$itemPlugObjectives = '309';
 	$components = "?components=" . $characterEquipment . "," . $itemPlugObjectives;
 
-	$weapon = '6917529856526470637'; // Changes depending on the weapon (2 different beloveds will have different id's here)
-	$pveTracker = '905869860'; // Seems to be consistant across players and characters
-	$crucibleTracker = '3244015567'; // Seems to be consistant across players and characters
-	$trialsMementoTracker = '3915764595'; // Seems to be consistant across players and characters
+	$weapon = '6917529856526470637'; // Changes depending on the weapon (2 different beloved's will have different id's here)
+	$pveTracker = '905869860'; // Seems to be consistent across players and characters
+	$crucibleTracker = '3244015567'; // Seems to be consistent across players and characters
+	$trialsMementoTracker = '3915764595'; // Seems to be consistent across players and characters
 
 	$urlWarlock = $bungieEndpoint . $endpointType . $membershipType . "Profile/" . $destinyMembershipId . "Character/" . $warlock . $components;
 	$urlHunter = $bungieEndpoint . $endpointType . $membershipType . "Profile/" . $destinyMembershipId . "Character/" . $$hunter . $components;
