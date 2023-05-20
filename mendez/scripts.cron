@@ -1,2 +1,2 @@
 #!/bin/bash
-*/15 * * * * curl https://lesi.org.uk/mendez/mendezBeloved.php
+*/15 * * * * curl https://lesi.org.uk/mendez/beloved.php
