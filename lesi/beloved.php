@@ -1,5 +1,10 @@
 <?php
 
+/*
+Twitch Nightbot Command:
+!addcom !beloved lesi has $(urlfetch https://lesi.org.uk/d2/lesi/beloved) kills on his beloved atm
+*/
+
 //	Variables
 
 	$api_key = getenv("BUNGIE_KEY");
