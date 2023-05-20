@@ -58,7 +58,7 @@
 ////////////////////////////////////////////////////////////////////////////////////
 
 //	Hunter
-
+/*
 	$chHunter = curl_init();
 	curl_setopt($chHunter, CURLOPT_URL, $urlHunter);
 	curl_setopt($chHunter, CURLOPT_RETURNTRANSFER, true);
@@ -80,11 +80,11 @@
 			file_put_contents($jsonFileName, $jsonData);			
 		}
 	}
-
+*/
 ////////////////////////////////////////////////////////////////////////////////////
 
 //	Titan
-
+/*
 	$chTitan = curl_init();
 	curl_setopt($chTitan, CURLOPT_URL, $urlTitan);
 	curl_setopt($chTitan, CURLOPT_RETURNTRANSFER, true);
@@ -105,7 +105,7 @@
 			file_put_contents($jsonFileName, $jsonData);			
 		} 
 	}
-
+*/
 ////////////////////////////////////////////////////////////////////////////////////
 
 //	Kill Count
