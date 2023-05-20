@@ -42,7 +42,7 @@
 		$gunTracker = $data["Response"]["itemComponents"]["plugObjectives"]["data"][$weapon]["objectivesPerPlug"][$crucibleTracker]["0"]["progress"];
 		if ($gunTracker !== null) {	
 			$weaponKillsFormatted = number_format($gunTracker);
-			$finalKillCount = "terror currently has " . $weaponKillsFormatted . " kills on his immortal";
+			$finalKillCount = "" . $weaponKillsFormatted . "";
 			echo $finalKillCount;
 			$jsonData = file_get_contents($jsonFileName);
 			$data1 = json_decode($jsonData, true);			
@@ -54,7 +54,7 @@
 			$weaponKillCountsDecoded = json_decode($weaponKillCounts, true);
 			$weaponKills = $weaponKillCountsDecoded[$jsonKeyName];
 			$weaponKillsFormatted = number_format($weaponKills);
-			$finalKillCount = "terror currently has " . $weaponKillsFormatted . " kills on his immortal";
+			$finalKillCount = "" . $weaponKillsFormatted . "";
 			echo $finalKillCount;
 		}
 	}

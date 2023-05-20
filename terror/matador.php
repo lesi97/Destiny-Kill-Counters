@@ -17,12 +17,12 @@
 	$itemPlugObjectives = '309';
 	$components = "?components=" . $characterEquipment . "," . $itemPlugObjectives;
 
-	$weapon = '6917529190261952418'; // Changes depending on the weapon (2 different beloved's will have different id's here)
+	$weapon = '6917529875871677239'; // Changes depending on the weapon (2 different beloved's will have different id's here)
 	$crucibleTracker = '3244015567';
 
 	$url = $bungieEndpoint . $endpointType . $membershipType . "Profile/" . $destinyMembershipId . $components;
 
-	$jsonKeyName = 'felwinter_kills';
+	$jsonKeyName = 'matador_kills';
 	$jsonFileName = 'kill-counts.json';
 
 ////////////////////////////////////////////////////////////////////////////////////
@@ -42,7 +42,7 @@
 		$gunTracker = $data["Response"]["itemComponents"]["plugObjectives"]["data"][$weapon]["objectivesPerPlug"][$crucibleTracker]["0"]["progress"];
 		if ($gunTracker !== null) {	
 			$weaponKillsFormatted = number_format($gunTracker);
-			$finalKillCount = "terror currently has " . $weaponKillsFormatted . " kills on his felwinter";
+			$finalKillCount = "" . $weaponKillsFormatted . "";
 			echo $finalKillCount;
 			$jsonData = file_get_contents($jsonFileName);
 			$data1 = json_decode($jsonData, true);			
@@ -54,7 +54,7 @@
 			$weaponKillCountsDecoded = json_decode($weaponKillCounts, true);
 			$weaponKills = $weaponKillCountsDecoded[$jsonKeyName];
 			$weaponKillsFormatted = number_format($weaponKills);
-			$finalKillCount = "terror currently has " . $weaponKillsFormatted . " kills on his felwinter";
+			$finalKillCount = "" . $weaponKillsFormatted . "";
 			echo $finalKillCount;
 		}
 	}
