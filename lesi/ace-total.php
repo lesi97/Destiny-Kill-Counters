@@ -56,7 +56,7 @@
 				$data2[$jsonKeyName] = $uniqueWeaponKills;
 				//$data2[$jsonKeyNamePrecisionKillCount] = $uniqueWeaponPrecisionKills;
 				//$data2[$jsonKeyNamePrecisionPercentage] = $uniqueWeaponKillsPrecisionPercentage;
-				$jsonData = json_encode($data1);
+				$jsonData = json_encode($data2);
 				file_put_contents($jsonFileName, $jsonData);
 			break;
 			}

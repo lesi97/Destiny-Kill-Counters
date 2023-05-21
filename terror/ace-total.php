@@ -8,14 +8,14 @@
 	$endpointType = 'Destiny2/';
 
 	$membershipType = '3/';
-	$destinyMembershipId = '4611686018475555326/';
-	$warlock = '2305843009343835744/';
-	$hunter = '2305843009379837540/';
-	$titan = '2305843009403888668/';
+	$destinyMembershipId = '4611686018467358417/';
+	$warlock = '2305843009301476854/';
+	$hunter = '2305843009321995500/';
+	$titan = '2305843009369808628/';
 	
 	$url = $bungieEndpoint . $endpointType . $membershipType . "Account/" . $destinyMembershipId . "Character/" . $warlock . "Stats/UniqueWeapons/";
 
-	$weaponName = "thorn";
+	$weaponName = "ace";
 	
 	$jsonKeyName = $weaponName . "_total_kills";
 	$jsonKeyNamePrecisionKillCount = $weaponName . "_total_headshots";
@@ -24,7 +24,7 @@
 
 	$jsonString = file_get_contents(__DIR__.'/../exotics.json');
 	$data = json_decode($jsonString, true);
-	$weaponId = $data['primaryWeapons']['HandCannons']['thorn'];
+	$weaponId = $data['primaryWeapons']['HandCannons']['aceOfSpades'];
 
 
 ////////////////////////////////////////////////////////////////////////////////////
