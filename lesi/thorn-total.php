@@ -45,21 +45,21 @@
 	
 	if ($response !== false) {
 		$data1 = json_decode($response, true);
-			$uniqueWeaponsList = $data1["Response"]["weapons"];
-				foreach ($uniqueWeaponsList as $weapon) {
-							if ($weapon['referenceId'] == $weaponId) {
-								$uniqueWeaponKills = $weapon['values']['uniqueWeaponKills']['basic']['value'];
-								$uniqueWeaponPrecisionKills = $weapon['values']['uniqueWeaponPrecisionKills']['basic']['value'];
-								$uniqueWeaponKillsPrecisionPercentage = $weapon['values']['uniqueWeaponKillsPrecisionKills']['basic']['displayValue'];
-								$jsonData = file_get_contents($jsonFileName);
-								$data2 = json_decode($jsonData, true);
-								$data2[$jsonKeyName] = $uniqueWeaponKills;
-								//$data2[$jsonKeyNamePrecisionKillCount] = $uniqueWeaponPrecisionKills;
-								//$data2[$jsonKeyNamePrecisionPercentage] = $uniqueWeaponKillsPrecisionPercentage;
-								$jsonData = json_encode($data1);
-								file_put_contents($jsonFileName, $jsonData);
-							break;
-							}
-				}
+		$uniqueWeaponsList = $data1["Response"]["weapons"];
+		foreach ($uniqueWeaponsList as $weapon) {
+			if ($weapon['referenceId'] == $weaponId) {
+				$uniqueWeaponKills = $weapon['values']['uniqueWeaponKills']['basic']['value'];
+				$uniqueWeaponPrecisionKills = $weapon['values']['uniqueWeaponPrecisionKills']['basic']['value'];
+				$uniqueWeaponKillsPrecisionPercentage = $weapon['values']['uniqueWeaponKillsPrecisionKills']['basic']['displayValue'];
+				$jsonData = file_get_contents($jsonFileName);
+				$data2 = json_decode($jsonData, true);
+				$data2[$jsonKeyName] = $uniqueWeaponKills;
+				//$data2[$jsonKeyNamePrecisionKillCount] = $uniqueWeaponPrecisionKills;
+				//$data2[$jsonKeyNamePrecisionPercentage] = $uniqueWeaponKillsPrecisionPercentage;
+				$jsonData = json_encode($data1);
+				file_put_contents($jsonFileName, $jsonData);
+			break;
+			}
+		}
 	}
 ?>
