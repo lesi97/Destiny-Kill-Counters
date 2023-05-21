@@ -1,0 +1,165 @@
+{
+  "primaryWeapons": {
+    "SMGs": {
+      "huckleberry": "2286143274",
+      "riskrunner": "3089417789",
+      "tarrabah": "3110698812",
+      "osteoStriga": "46524085",
+      "manticore": "219145368"
+    },
+    "Sidearms": {
+      "ratking": "2362471601",
+      "devilsRuin": "3824106094",
+      "cryosthesia77K": "603721696",
+      "trespasser": "1234150730",
+      "travelersChosen": "1853180924"
+    },
+    "PulseRifles": {
+      "badJuju": "2816212794",
+      "collectiveObligation": "3505113722",
+      "gravitonLance": "3628991658",
+      "vigilanceWing": "3628991659",
+      "outbreakPerfected": "400096939",
+      "revisionZero": "1473821207",
+      "noTimeToExplain": "1594120904"
+    },
+    "AutoRifles": {
+      "surosRegime": "2856683562",
+      "monteCarlo": "4068264807",
+      "hardLight": "4124984448",
+      "vexMythoclast": "4289226715",
+      "quicksilverStorm": "4293613902",
+      "tommysMatchbook": "776191470",
+      "sweetBusiness": "1345867570",
+      "cerberus1": "1541131350"
+    },
+    "ScoutRifles": {
+      "polarisLance": "3413074534",
+      "deadMansTale": "3654674561",
+      "jadeRabbit": "3844694310",
+      "symmetry": "4017959782",
+      "skyburnersOath": "4255268456",
+      "midaMultiTool": "1331482397",
+      "touchOfMalice": "1802135586"
+    },
+    "HandCannons": {
+      "sturm": "2907129556",
+      "thorn": "3973202132",
+      "sunshot": "2907129557",
+      "crimson": "3437746471",
+      "lumina": "3512014804",
+      "hawkmoon": "3856705927",
+      "malfeasance": "204878059",
+      "aceOfSpades": "347366834",
+      "lastWord": "1364093401"
+    },
+    "Bows": {
+      "ticuusDivination": "3260753130",
+      "leMonarque": "3588934839",
+      "verglasCurve": "3659414143",
+      "hierarchyOfNeeds": "4174431791",
+      "wishEnder": "814876684",
+      "trinityGhoul": "814876685"
+    },
+    "GrenadeLaunchers": {
+      "fightingLion": "3549153978"
+    }
+  },
+  "specialWeapons": {
+    "Sidearms": {
+      "forerunner": "2179048386"
+    },
+    "FusionRifles": {
+      "telesto": "2208405142",
+      "merciless": "4190156464",
+      "bastion": "2415517654",
+      "delicateTomb": "374573733",
+      "jotunn": "417164956"
+    },
+    "GrenadeLaunchers": {
+      "witherhoard": "2357297366",
+      "deadMessenger": "2812324401"
+    },
+    "Snipers": {
+      "cloudstrike": "2603483885",
+      "borealis": "3141979347",
+      "izanagisBurden": "3211806999"
+    },
+    "Glaives": {
+      "vexcalibur": "3118061005",
+      "edgeOfIntent": "14194600"
+    },
+    "TraceRifles": {
+      "divinity": "4103414242",
+      "prometheusLens": "19024058",
+      "coldheart": "1345867571",
+      "ruinousEffigy": "1363238943",
+      "agersScepter": "1833195496",
+      "wavesplitter": "1852863732"
+    },
+    "Shotguns": {
+      "chaperone": "3413860062",
+      "lordOfWolves": "3413860063",
+      "duality": "3460576091",
+      "fourthHorseman": "1665952087"
+    },
+    "HandCannons": {
+      "erianasVow": "3524313097"
+    },
+    "LinearFusionRifles": {
+      "lorentzDriver": "3761898871",
+      "arbalest": "2130065553"
+    }
+  },
+  "heavyWeapons": {
+    "Rockets": {
+      "deathbringer": "2232171099",
+      "eyesOfTomorrow": "2399110176",
+      "twoTailedFox": "2694576561",
+      "truth": "1201830623",
+      "gjallarhorn": "1363886209",
+      "wardcliffCoil": "1508896098"
+    },
+    "GrenadeLaunchers": {
+      "anarchy": "2376481550",
+      "parasite": "2812324400",
+      "prospector": "3549153979",
+      "colony": "3899270607",
+      "salvationsGrip": "370712896"
+    },
+    "Bows": {
+      "leviathansBreath": "2591746970"
+    },
+    "Glaives": {
+      "winterbite": "3118061004"
+    },
+    "Snipers": {
+      "darci": "3141979346",
+      "whisperOfTheWorm": "1891561814"
+    },
+    "MachineGuns": {
+      "thunderlord": "3325463374",
+      "deterministicChaos": "449318888",
+      "xenophage": "1395261499",
+      "grandOverture": "1763584999",
+      "heirApparent": "2084878005"
+    },
+    "LinearFusionRifles": {
+      "sleeperSimulant": "4036115577",
+      "queenbreaker": "2044500762"
+    },
+    "Swords": {
+      "lament": "3487253372",
+      "blackTalon": "3766045777",
+      "worldlineZero": "1864563948"
+    },
+    "Shotguns": {
+      "legendOfAcrius": "3580904580",
+      "legendOfAcrius2": "1744115122",
+      "tractorCannon": "3580904581"
+    },
+    "FusionRifles": {
+      "oneThousandVoices": "2069224589"
+    }
+  }
+}
