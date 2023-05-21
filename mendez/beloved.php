@@ -2,7 +2,7 @@
 
 /*
 Twitch Nightbot Command:
-!addcom !beloved lesi has $(urlfetch https://lesi.org.uk/d2/mendez/beloved) kills on his beloved atm
+!addcom !beloved mendez currently has $(urlfetch https://lesi.org.uk/d2/mendez/beloved) kills on their beloved
 */
 
 //	Variables

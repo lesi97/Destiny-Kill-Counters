@@ -2,7 +2,7 @@
 
 /*
 Twitch Nightbot Command:
-!addcom !beloved krystal currently has $(urlfetch https://lesi.org.uk/d2/krystal/palindrome) kills on their palindrome
+!addcom !palindrome krystal currently has $(urlfetch https://lesi.org.uk/d2/krystal/palindrome) kills on their palindrome
 */
 
 //	Variables
