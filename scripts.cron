@@ -1,0 +1,13 @@
+#!/bin/bash
+*/15 * * * * curl https://lesi.org.uk/d2/terror/ace
+*/15 * * * * curl https://lesi.org.uk/d2/terror/felwinter
+*/15 * * * * curl https://lesi.org.uk/d2/terror/matador
+*/15 * * * * curl https://lesi.org.uk/d2/terror/immortal
+*/15 * * * * curl https://lesi.org.uk/d2/terror/ace-total
+
+*/15 * * * * curl https://lesi.org.uk/d2/krystal/chaperone-total
+*/15 * * * * curl https://lesi.org.uk/d2/krystal/palindrome
+
+*/15 * * * * curl https://lesi.org.uk/d2/yunger/beloved
+
+*/15 * * * * curl https://lesi.org.uk/d2/mendez/beloved
