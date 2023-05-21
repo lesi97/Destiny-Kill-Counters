@@ -22,7 +22,6 @@
 	$jsonKeyNamePrecisionPercentage = $weaponName . "_total_headshots_percentage";
 	$jsonFileName = 'kill-counts.json';
 
-	// Get exotic id from json 
 	$jsonString = file_get_contents(__DIR__.'/../exotics.json');
 	$data = json_decode($jsonString, true);
 	$weaponId = $data['primaryWeapons']['HandCannons']['thorn'];
