@@ -123,7 +123,7 @@
 			}
 			
 			// Only Get The Perks People Care About
-			$selectedPerks = array_slice($perks, 0, 8);
+			$selectedPerks = array_slice($perks, 0, 5);
 			$weaponPerks = implode(", ", $selectedPerks);					
 
 			if ($pvpTracker === true) {
