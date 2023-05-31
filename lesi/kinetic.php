@@ -116,7 +116,7 @@
 					if ($perks[$i] == "Crucible Tracker") {
 						$pvpTrackerHash = $perkHash[$i];
 						$pvpTracker = true;
-						$pvpKillCount = $data["Response"]["itemComponents"]["plugObjectives"]["data"][$itemInstanceId]["objectivesPerPlug"][$pvpTrackerHash]["0"]["progress"];
+						$pvpKillCount = number_format($data["Response"]["itemComponents"]["plugObjectives"]["data"][$itemInstanceId]["objectivesPerPlug"][$pvpTrackerHash]["0"]["progress"]);
 					}
 				} else {
 					echo "Curl error: " . curl_error($ch_i);

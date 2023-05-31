@@ -114,6 +114,7 @@
 					if ($perks[$i] == "Crucible Tracker") {
 						$pvpTrackerHash = $perkHash[$i];
 						$pvpTracker = true;
+						$pvpKillCount = number_format($data["Response"]["itemComponents"]["plugObjectives"]["data"][$itemInstanceId]["objectivesPerPlug"][$pvpTrackerHash]["0"]["progress"]);
 					}
 				} else {
 					echo "Curl error: " . curl_error($ch_i);
@@ -127,7 +128,7 @@
 			$weaponPerks = implode(", ", $selectedPerks);					
 
 			if ($pvpTracker === true) {
-				echo $weaponName . " | Perks: " .  $weaponPerks . " | PVP Kill Count: " . $data["Response"]["itemComponents"]["plugObjectives"]["data"][$itemInstanceId]["objectivesPerPlug"][$pvpTrackerHash]["0"]["progress"];
+				echo $weaponName . " | Perks: " .  $weaponPerks . " | PVP Kill Count: " . $pvpKillCount;
 			} else {
 				echo $weaponName . " | Perks: " .  $weaponPerks;
 			}
