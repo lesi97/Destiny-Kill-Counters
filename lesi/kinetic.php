@@ -37,6 +37,9 @@
 	$pvpTracker = false;
 	$pvpTrackerHash = "";
 	$pvpKillCount = "";
+	$pveTracker = false;
+	$pveTrackerHash = "";
+	$pveKillCount = "";
 	
 	
 ////////////////////////////////////////////////////////////////////////////////////
@@ -117,6 +120,10 @@
 						$pvpTrackerHash = $perkHash[$i];
 						$pvpTracker = true;
 						$pvpKillCount = number_format($data["Response"]["itemComponents"]["plugObjectives"]["data"][$itemInstanceId]["objectivesPerPlug"][$pvpTrackerHash]["0"]["progress"]);
+					} elseif ($perks[$i] == "Kill Tracker") {
+						$pveTrackerHash = $perkHash[$i];
+						$pveTracker = true;
+						$pveKillCount = number_format($data["Response"]["itemComponents"]["plugObjectives"]["data"][$itemInstanceId]["objectivesPerPlug"][$pveTrackerHash]["0"]["progress"]);
 					}
 				} else {
 					echo "Curl error: " . curl_error($ch_i);
@@ -131,6 +138,8 @@
 
 			if ($pvpTracker === true) {
 				echo $weaponName . " | Perks: " .  $weaponPerks . " | PVP Kill Count: " . $pvpKillCount;
+			} elseif ($pveTracker === true) {
+				echo $weaponName . " | Perks: " .  $weaponPerks . " | PVE Kill Count: " . $pveKillCount;
 			} else {
 				echo $weaponName . " | Perks: " .  $weaponPerks;
 			}
